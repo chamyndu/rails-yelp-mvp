@@ -1,0 +1,7 @@
+<h1>Top Michelin Star Restuarants</h1>
+
+<ul>
+  <% @top_retaurants.each do |restaurant| %>
+    <li><%= restaurant.name%> <%= restaurant.stars %> stars</li>
+  <% end %>
+</ul>
